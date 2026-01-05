@@ -102,6 +102,32 @@ A2UI is designed to be a lightweight format, but it fits into a larger ecosystem
 
 The best way to understand A2UI is to run the samples.
 
+### 🎯 NEW: Product Showcase Demo (Comprehensive A2UI Capabilities)
+
+**Try this first!** The Product Showcase demo demonstrates ALL core A2UI capabilities in one place:
+- ✅ All 9 component types (Text, Image, Icon, Card, Button, TextField, Slider, Row, Column)
+- ✅ Dynamic lists with templates
+- ✅ Interactive forms
+- ✅ Data binding patterns
+- ✅ Complex layouts
+
+**Quick Start:**
+```bash
+export GEMINI_API_KEY="your_key"
+
+# Terminal 1 - Agent
+cd samples/agent/adk/product_showcase
+uv run .
+
+# Terminal 2 - Client
+cd samples/client/lit/shell
+npm install && npm run dev
+
+# Open: http://localhost:5173?app=products
+```
+
+📖 **See [PRODUCT_SHOWCASE_QUICKSTART.md](PRODUCT_SHOWCASE_QUICKSTART.md) for complete instructions**
+
 ### Prerequisites
 
 * Node.js (for web clients)
