@@ -1,0 +1,68 @@
+[
+  {
+    "id": "laptop-001",
+    "name": "UltraBook Pro 15",
+    "category": "Laptops",
+    "price": 1299.99,
+    "rating": 4.5,
+    "description": "High-performance laptop with 16GB RAM and 512GB SSD. Perfect for professionals and developers.",
+    "features": ["Intel i7 Processor", "16GB RAM", "512GB SSD", "15.6\" Display"],
+    "stock": 24,
+    "imageUrl": "https://via.placeholder.com/400x300/4A90E2/ffffff?text=UltraBook+Pro"
+  },
+  {
+    "id": "phone-001",
+    "name": "SmartPhone X",
+    "category": "Phones",
+    "price": 899.99,
+    "rating": 4.8,
+    "description": "Latest flagship smartphone with cutting-edge camera technology and 5G connectivity.",
+    "features": ["6.7\" OLED Display", "5G Ready", "Triple Camera System", "128GB Storage"],
+    "stock": 45,
+    "imageUrl": "https://via.placeholder.com/400x300/50C878/ffffff?text=SmartPhone+X"
+  },
+  {
+    "id": "headphones-001",
+    "name": "SoundWave Pro",
+    "category": "Audio",
+    "price": 299.99,
+    "rating": 4.7,
+    "description": "Premium noise-canceling headphones with 30-hour battery life and superior sound quality.",
+    "features": ["Active Noise Cancellation", "30h Battery", "Bluetooth 5.0", "Premium Comfort"],
+    "stock": 67,
+    "imageUrl": "https://via.placeholder.com/400x300/FF6B6B/ffffff?text=SoundWave+Pro"
+  },
+  {
+    "id": "tablet-001",
+    "name": "TabletMaster 12",
+    "category": "Tablets",
+    "price": 649.99,
+    "rating": 4.6,
+    "description": "Versatile tablet with stylus support and stunning display. Ideal for creative professionals.",
+    "features": ["12\" Display", "Stylus Included", "8GB RAM", "256GB Storage"],
+    "stock": 33,
+    "imageUrl": "https://via.placeholder.com/400x300/FFD93D/333333?text=TabletMaster+12"
+  },
+  {
+    "id": "watch-001",
+    "name": "FitWatch Elite",
+    "category": "Wearables",
+    "price": 399.99,
+    "rating": 4.4,
+    "description": "Advanced fitness smartwatch with health monitoring and GPS tracking.",
+    "features": ["Heart Rate Monitor", "GPS Tracking", "Water Resistant", "7-day Battery"],
+    "stock": 89,
+    "imageUrl": "https://via.placeholder.com/400x300/A855F7/ffffff?text=FitWatch+Elite"
+  },
+  {
+    "id": "camera-001",
+    "name": "ProCam 4K",
+    "category": "Cameras",
+    "price": 1599.99,
+    "rating": 4.9,
+    "description": "Professional 4K camera with advanced stabilization and low-light performance.",
+    "features": ["4K Video", "Image Stabilization", "Low Light Performance", "Interchangeable Lenses"],
+    "stock": 12,
+    "imageUrl": "https://via.placeholder.com/400x300/EC4899/ffffff?text=ProCam+4K"
+  }
+]
