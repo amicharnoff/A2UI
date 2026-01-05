@@ -72,18 +72,47 @@ npm install
 npm run dev
 ```
 
-The client will open in your browser, typically at `http://localhost:3000`.
+The client will open in your browser, typically at `http://localhost:5173`.
+
+To use the Product Showcase agent specifically, open:
+```
+http://localhost:5173?app=products
+```
+
+Or use the app switcher in the UI to select "Product Showcase".
 
 ### 4. Try These Commands
 
-Once both are running, try these prompts in the client:
+Once both are running, try these prompts in the client to test different capabilities:
 
-- **"Show me all products"** - Displays a grid of all available products
-- **"Show me laptops"** - Filters products by category
-- **"Find products under $500"** - Search with price constraint
-- **"Show me the highest rated products"** - Filter by rating
-- **"Tell me about the UltraBook Pro"** - Get detailed product information
-- **"Create a filter form"** - Generate an interactive filter interface
+#### Basic Product Display
+- **"Show me all products"** - Tests: Card layout, Image components, Text (h2, h3, body), Column layout, dynamic list with templates
+
+#### Category Filtering  
+- **"Show me laptops"** or **"Show me phones"** - Tests: Data filtering, dynamic content generation
+
+#### Search Functionality
+- **"Find products under $500"** - Tests: Tool usage (search_products), conditional data display
+- **"Show me the highest rated products"** - Tests: Rating-based filtering
+
+#### Detailed Views
+- **"Tell me about the UltraBook Pro"** - Tests: Single product card, detailed information display, feature lists
+
+#### Interactive Forms
+- **"Create a filter form"** or **"I want to filter products"** - Tests: TextField, Slider, Button components, form layout, data binding
+
+#### Icon Usage
+- **"Show me the key features"** - Tests: Icon components, Row layout with icons and text, alignment
+
+#### Mixed Layouts
+- **"Show me 3 products in a row"** - Tests: Row layout with multiple cards, distribution settings
+
+Each command demonstrates different aspects of A2UI:
+- **Component Types**: Text, Image, Icon, Card, Button, TextField, Slider
+- **Layout**: Row, Column, weight distribution, alignment
+- **Data Binding**: Literal strings vs. path references
+- **Templates**: Dynamic list generation
+- **Interactivity**: Button actions, form inputs
 
 ## Configuration
 

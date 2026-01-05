@@ -1,0 +1,57 @@
+/*
+ Copyright 2025 Google LLC
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
+
+import { AppConfig } from "./types.js";
+
+export const config: AppConfig = {
+  key: "products",
+  title: "Product Showcase",
+  heroImage: "/hero.png",
+  heroImageDark: "/hero-dark.png",
+  background: `radial-gradient(
+    at 0% 0%,
+    light-dark(rgba(74, 144, 226, 0.3), rgba(74, 144, 226, 0.15)) 0px,
+    transparent 50%
+  ),
+  radial-gradient(
+    at 100% 0%,
+    light-dark(rgba(80, 200, 120, 0.3), rgba(80, 200, 120, 0.15)) 0px,
+    transparent 50%
+  ),
+  radial-gradient(
+    at 100% 100%,
+    light-dark(rgba(255, 107, 107, 0.3), rgba(255, 107, 107, 0.15)) 0px,
+    transparent 50%
+  ),
+  radial-gradient(
+    at 0% 100%,
+    light-dark(rgba(168, 85, 247, 0.3), rgba(168, 85, 247, 0.15)) 0px,
+    transparent 50%
+  ),
+  linear-gradient(
+    120deg,
+    light-dark(#f8f9fa, #0f172a) 0%,
+    light-dark(#e9ecef, #1e293b) 100%
+  )`,
+  placeholder: "Show me all products or search by category (Laptops, Phones, Audio, etc.)",
+  loadingText: [
+    "Loading product catalog...",
+    "Preparing showcase...",
+    "Building your interface...",
+    "Almost ready...",
+  ],
+  serverUrl: "http://localhost:10004",
+};
